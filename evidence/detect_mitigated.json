@@ -1,0 +1,10 @@
+[
+  {
+    "time": "2026-11-16 13:23:36.942",
+    "category": "UNAUTH_ADVERTISEMENT",
+    "severity": "MEDIUM",
+    "src": "172.18.0.1",
+    "dst": "172.18.0.2",
+    "detail": "browse advertises printer 172.18.0.1:9100/PostMitig"
+  }
+]

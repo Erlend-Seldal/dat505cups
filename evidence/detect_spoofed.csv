@@ -1,0 +1,6 @@
+time,category,severity,src,dst,detail
+2026-11-16 13:06:24.969,UNAUTH_ADVERTISEMENT,MEDIUM,172.18.0.50,172.18.0.2,browse advertises printer 172.18.0.1:9100/Spoofed
+2026-11-16 13:06:24.969,SOURCE_HOST_MISMATCH,LOW,172.18.0.50,172.18.0.2,packet src 172.18.0.50 != advertised host 172.18.0.1 (possible spoof)
+2026-11-16 13:06:24.971,SUSPICIOUS_IPP,MEDIUM,172.18.0.2,172.18.0.1:9100,victim IPP request: POST /printers/Spoofed HTTP/1.1
+2026-11-16 13:06:24.972,SUSPICIOUS_IPP,MEDIUM,172.18.0.2,172.18.0.1:9100,victim IPP request: POST /printers/Spoofed HTTP/1.1
+2026-11-16 13:06:24.972,SUSPICIOUS_IPP,MEDIUM,172.18.0.2,172.18.0.1:9100,victim IPP request: POST /printers/Spoofed HTTP/1.1

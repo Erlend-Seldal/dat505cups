@@ -1,0 +1,2 @@
+time,category,severity,src,dst,detail
+2026-11-16 13:23:36.942,UNAUTH_ADVERTISEMENT,MEDIUM,172.18.0.1,172.18.0.2,browse advertises printer 172.18.0.1:9100/PostMitig

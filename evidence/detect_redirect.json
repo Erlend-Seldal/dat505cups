@@ -1,0 +1,18 @@
+[
+  {
+    "time": "2026-11-16 13:06:18.385",
+    "category": "UNEXPECTED_PRINTER_HOST",
+    "severity": "HIGH",
+    "src": "172.18.0.1",
+    "dst": "172.18.0.2",
+    "detail": "advertises 172.18.0.99:6631/Rogue1 (host not allowlisted)"
+  },
+  {
+    "time": "2026-11-16 13:06:18.385",
+    "category": "SOURCE_HOST_MISMATCH",
+    "severity": "LOW",
+    "src": "172.18.0.1",
+    "dst": "172.18.0.2",
+    "detail": "packet src 172.18.0.1 != advertised host 172.18.0.99 (possible spoof)"
+  }
+]

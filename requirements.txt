@@ -1,0 +1,8 @@
+# Python dependencies for the CUPS attack & detection tooling
+scapy>=2.5.0
+
+# System packages (install via apt, not pip):
+#   docker.io docker-compose   - run the Vulhub victim container
+#   tcpdump wireshark          - packet capture
+#   ippsample                  - ippserver virtual printer
+#   avahi-daemon               - required so ippserver starts (DNS-SD registration)

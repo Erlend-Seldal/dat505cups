@@ -1,0 +1,34 @@
+[
+  {
+    "time": "2026-11-16 12:59:39.994",
+    "category": "UNAUTH_ADVERTISEMENT",
+    "severity": "MEDIUM",
+    "src": "172.18.0.1",
+    "dst": "172.18.0.2",
+    "detail": "browse advertises printer 172.18.0.1:9100/Evil"
+  },
+  {
+    "time": "2026-11-16 12:59:40.013",
+    "category": "SUSPICIOUS_IPP",
+    "severity": "MEDIUM",
+    "src": "172.18.0.2",
+    "dst": "172.18.0.1:9100",
+    "detail": "victim IPP request: POST /printers/Evil HTTP/1.1"
+  },
+  {
+    "time": "2026-11-16 12:59:40.025",
+    "category": "SUSPICIOUS_IPP",
+    "severity": "MEDIUM",
+    "src": "172.18.0.2",
+    "dst": "172.18.0.1:9100",
+    "detail": "victim IPP request: POST /printers/Evil HTTP/1.1"
+  },
+  {
+    "time": "2026-11-16 12:59:40.026",
+    "category": "SUSPICIOUS_IPP",
+    "severity": "MEDIUM",
+    "src": "172.18.0.2",
+    "dst": "172.18.0.1:9100",
+    "detail": "victim IPP request: POST /printers/Evil HTTP/1.1"
+  }
+]

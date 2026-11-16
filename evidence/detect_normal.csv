@@ -1,0 +1,5 @@
+time,category,severity,src,dst,detail
+2026-11-16 12:44:51.025,UNAUTH_ADVERTISEMENT,MEDIUM,172.18.0.1,172.18.0.2,browse advertises printer 172.18.0.1:6310/LegitPrinter
+2026-11-16 12:44:51.029,SUSPICIOUS_IPP,MEDIUM,172.18.0.2,172.18.0.1:6310,victim IPP request: POST /printers/LegitPrinter HTTP/1.1
+2026-11-16 12:44:51.030,SUSPICIOUS_IPP,MEDIUM,172.18.0.2,172.18.0.1:6310,victim IPP request: POST /printers/LegitPrinter HTTP/1.1
+2026-11-16 12:44:51.030,SUSPICIOUS_IPP,MEDIUM,172.18.0.2,172.18.0.1:6310,victim IPP request: POST /printers/LegitPrinter HTTP/1.1

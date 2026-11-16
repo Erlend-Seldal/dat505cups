@@ -1,0 +1,42 @@
+[
+  {
+    "time": "2026-11-16 13:06:24.969",
+    "category": "UNAUTH_ADVERTISEMENT",
+    "severity": "MEDIUM",
+    "src": "172.18.0.50",
+    "dst": "172.18.0.2",
+    "detail": "browse advertises printer 172.18.0.1:9100/Spoofed"
+  },
+  {
+    "time": "2026-11-16 13:06:24.969",
+    "category": "SOURCE_HOST_MISMATCH",
+    "severity": "LOW",
+    "src": "172.18.0.50",
+    "dst": "172.18.0.2",
+    "detail": "packet src 172.18.0.50 != advertised host 172.18.0.1 (possible spoof)"
+  },
+  {
+    "time": "2026-11-16 13:06:24.971",
+    "category": "SUSPICIOUS_IPP",
+    "severity": "MEDIUM",
+    "src": "172.18.0.2",
+    "dst": "172.18.0.1:9100",
+    "detail": "victim IPP request: POST /printers/Spoofed HTTP/1.1"
+  },
+  {
+    "time": "2026-11-16 13:06:24.972",
+    "category": "SUSPICIOUS_IPP",
+    "severity": "MEDIUM",
+    "src": "172.18.0.2",
+    "dst": "172.18.0.1:9100",
+    "detail": "victim IPP request: POST /printers/Spoofed HTTP/1.1"
+  },
+  {
+    "time": "2026-11-16 13:06:24.972",
+    "category": "SUSPICIOUS_IPP",
+    "severity": "MEDIUM",
+    "src": "172.18.0.2",
+    "dst": "172.18.0.1:9100",
+    "detail": "victim IPP request: POST /printers/Spoofed HTTP/1.1"
+  }
+]

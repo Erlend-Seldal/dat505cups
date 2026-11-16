@@ -1,0 +1,10 @@
+[
+  {
+    "time": "2026-11-16 13:06:32.258",
+    "category": "MALFORMED_BROWSE",
+    "severity": "HIGH",
+    "src": "172.18.0.1",
+    "dst": "172.18.0.2",
+    "detail": "unparseable browse data: '0 3 notauri \"junk'"
+  }
+]
